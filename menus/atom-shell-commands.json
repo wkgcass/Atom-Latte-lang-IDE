@@ -1,0 +1,20 @@
+{
+    "menu" : [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "Atom Latte-lang IDE",
+                    "submenu": [
+                        { "label": "Stop Command", "command": "atom-latte-lang-ide-config:stop" },
+                        { "label": "Go To First Error", "command": "atom-latte-lang-ide-config:error-first" },
+                        { "label": "Go To Last Error", "command": "atom-latte-lang-ide-config:error-last" },
+                        { "label": "Go To Next Error", "command": "atom-latte-lang-ide-config:error-next" },
+                        { "label": "Go To Prev Error", "command": "atom-latte-lang-ide-config:error-prev" },
+                        { "type": "separator" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

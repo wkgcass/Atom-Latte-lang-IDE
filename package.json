@@ -1,0 +1,67 @@
+{
+  "name": "atom-latte-lang-ide",
+  "version": "0.0.0",
+  "description": "an IDE for Latte-lang on Atom. It can run scripts, generate and compile files.",
+  "main": "./lib/atom-latte-lang-ide",
+  "keywords": [
+    "Latte-lang",
+    "build",
+    "compile",
+    "make",
+    "user",
+    "tool",
+    "shell",
+    "command",
+    "project",
+    "LessTyping"
+  ],
+  "homepage": "https://github.com/wkgcass/Atom-Latte-lang-IDE",
+  "dependencies": {
+    "space-pen": "^4",
+    "xregexp": "^2.0.0"
+  },
+  "author": {
+    "name": "wkgcass"
+  },
+  "repository": "https://github.com/wkgcass/Atom-Latte-lang-IDE",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/wkgcass/Atom-Latte-lang-IDE/issues"
+  },
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "win-spawn",
+        "version": "2.0.0",
+        "path": "node_modules/win-spawn/index.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "lib/atom-latte-lang-ide.js",
+        "lib/config.js",
+        "node_modules/win-spawn/index.js"
+      ],
+      ".json": [
+        "node_modules/win-spawn/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "menus",
+          ""
+        ],
+        "dependencies": {
+          "win-spawn": "^2.0.0"
+        }
+      }
+    ]
+  }
+}
