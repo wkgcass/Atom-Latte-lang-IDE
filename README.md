@@ -31,11 +31,11 @@ In `Packages - Atom-Latte-lang-IDE` menu, you can click `Generate build.lts & ru
 # What is Latte-lang
 Latte-lang is a JVM Language.
 
-![](http://latte.cassite.net/images/highlight.png)
+![](http://latte-lang.org/images/highlight.png)
 
 go to [Repository](https://github.com/wkgcass/Latte-lang)
 
-go to [Web Page](http://latte.cassite.net)
+go to [Web Page](http://latte-lang.org)
 
 # License
 The `atom-latte-lang-ide` is based on [atom-shell-commands](https://github.com/skywind3000/atom-shell-commands).  
