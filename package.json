@@ -1,6 +1,6 @@
 {
   "name": "atom-latte-lang-ide",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "an IDE for Latte-lang on Atom. It can run scripts, generate and compile files.",
   "main": "./lib/atom-latte-lang-ide",
   "keywords": [
